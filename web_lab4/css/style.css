@@ -1,0 +1,149 @@
+body {
+    margin: auto;
+}
+
+.one ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu a {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: .3s linear;
+    margin: 15px;
+    background-color: white;
+    line-height: 30px;
+}
+
+.topmenu {
+    /*float: right;*/
+    display: inline-block;
+}
+
+.topmenu > li {
+    display: inline-block;
+    /*margin-right: -6px;*/
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 95%;
+    width: 150%;
+    background: white;
+}
+
+.one {
+    animation-duration: 2s;
+    animation-name: menu;
+    animation-timing-function: linear;
+}
+
+.one ul {
+    /*background: #ECDAD6;*/
+    margin: 0 200px 0 0;
+}
+
+.one ul a {
+    color: #000000;
+}
+
+.one .submenu {
+    display: none;
+}
+
+.one ul li:hover .submenu {
+    display: block;
+}
+
+li a:hover {
+    background: #bdbdbd;
+    color: #000000;
+    animation-duration: 0.2s;
+    animation-name: hover;
+    animation-timing-function: ease-in;
+}
+
+.background_title {
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+
+.main_title {
+    letter-spacing: 3px;
+    text-align: center;
+    color: black;
+}
+
+.background_img_1 {
+    background: #c7b39b url(../imagine/OE_main.jpg);
+    height: 500px;
+}
+
+.background_img_2 {
+    background: #c7b39b url(../imagine/OE_news_backgroung.jpg);
+    height: 300px;
+}
+
+.background_text {
+    text-align: center;
+    color: #a9a9a9;
+    font-size: 18px;
+}
+
+.main_text {
+    margin-left: 250px;
+    font-size: 18px;
+}
+
+.album_img {
+    float: right;
+    margin-right: 250px;
+    padding-left: 50px
+}
+
+.footer {
+    padding: 10px;
+    background: #e5e5e5;
+    color: #979797;
+    width: 100%;
+    margin: 150px 0 0 0;
+}
+
+.footer p {
+    padding-left: 100px;
+    font-size: 11px;
+}
+
+/*@keyframes logo {*/
+/*    from {*/
+/*        margin-left: -150px;*/
+/*    }*/
+/*    to {*/
+/*        margin-right: 0;*/
+/*    }*/
+/*}*/
+
+/*@keyframes menu {*/
+/*    from {*/
+/*        margin: -80px 0 0 0;*/
+/*    }*/
+/*    to {*/
+/*        margin: 0;*/
+/*    }*/
+/*}*/
+
+/*@keyframes hover {*/
+/*    from {*/
+/*        transform:rotate(-15deg);*/
+/*    }*/
+/*    to {*/
+/*        transform: rotate(15deg);*/
+/*    }*/
+/*}*/
+
